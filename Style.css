@@ -6,24 +6,6 @@ html{
     scroll-behavior: smooth;
     font-family: Arial, sans-serif;
 }
-.page {
-    display: none;
-}
-
-
-#Home {
-    display: block;
-}
-
-
-.page:target {
-    display: block;
-}
-
-
-body:has(.page:target:not(#Home)) #Home {
-    display: none;
-}
 
 nav{
     background-color: #fcaed4;
@@ -71,7 +53,7 @@ li a:hover{
     text-decoration: underline;
 }
 #AboutMe  {
-    background-color: #fbcde4;
+    background-color: #f7deea;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      
 }
